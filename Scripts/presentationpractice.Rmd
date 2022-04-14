@@ -72,5 +72,28 @@ imagerayshade
 
 ## What is Rayshader?
 
+---
+Load Libraries
+```{r, message=FALSE, warning=FALSE}
+library(rayshader)
+library(tidyverse)
+library(here)
+```
 
+---
+```{r quakes_2d, message=FALSE, warning=FALSE}
 
+data("quakes")
+
+quakes_sample <- quakes[seq(1,1000,by = 100),]
+
+quakes_plot<-ggplot(data = quakes_sample, aes(x = lat, y = long)) + 
+  geom_point(aes(size = mag, colour = mag)) +
+  guides(size = F) + 
+  labs(x = "Latitude", y = "Longitude") + 
+  scale_colour_viridis_b(option = "B") + 
+  scale_size_continuous(range = c(1,10))
+
+quakes_plot
+```
+---
