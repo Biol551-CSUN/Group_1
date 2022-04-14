@@ -8,7 +8,7 @@ Introduction:
 In this repository we will be walking through the package “Rayshader” this package is made to created 3D maps and plots! Through this repository we will talk about how this package works specifically as well as how you can use various functions from the package to create your own 3D map or plot. 
 
 ## Folder Components: 
-Data: Map Data 
+Data: Map Data, including geoTIF's of SF Valley and Santa Monica Mountains.
 Output: Plots and Maps created through the script posted 
 Scripts: Slides walking through the different aspects of Rayshader to
 
