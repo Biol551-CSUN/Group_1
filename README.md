@@ -9,8 +9,13 @@ In this repository we will be walking through the package “Rayshader” this p
 
 ## Folder Components: 
 Data: Map Data, including geoTIF's of SF Valley and Santa Monica Mountains.
-Output: Plots and Maps created through the script posted 
-Scripts: Slides walking through the different aspects of Rayshader to
+
+
+Output: Plots and Maps created through the script posted .
+
+
+Scripts: Slides walking through the different aspects of Rayshader, Rmarkdown file for easy follow-up.
+
 
 ## Functions Reviewed:
 
