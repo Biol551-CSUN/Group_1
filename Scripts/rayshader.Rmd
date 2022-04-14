@@ -75,7 +75,7 @@ What rayshader is the most useful for, is creating stunning 3D topographic maps.
 
 There are many sources were you can download rasters, depending on your needs, for example [this website](https://dwtkns.com/srtm30m/) contains worldwide altitude rasters with 30 meter resolution.
 
-Now we can import our raster as an object using the funcction raster(). We can visualize it using the function plot_map().
+Now we can import our raster as an object using the function raster(). We can visualize it using the function plot_map().
 
 ```{r, warning=FALSE, message=FALSE}
 elevation <- raster::raster(here("Data","section_SMM.tif"))
@@ -95,7 +95,7 @@ height_shade(raster_to_matrix(elevation)) %>%
   plot_map()
 ```
 
-Now that we have doublechecked that our raster is ready, let's crate an object with the matrix.
+Now that we have doublechecked that our raster is ready, let's create an object with the matrix.
 
 ```{r, warning=FALSE, message=TRUE}
 samo <- raster_to_matrix(elevation)
