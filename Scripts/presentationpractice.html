@@ -64,15 +64,65 @@ MathJax.Hub.Config({
 ## What is Rayshader?
 
 ---
-Load Libraries
+## Introduction
+
+Rayshader is a package used for 3D and 2D visualization. It’s functions can be used to create 3D and 2D maps and ggplots!  It does so through a series of overlays that when applied on top of each other form a 2D/3D map or plot. Rayrender (a subfeature of rayshader) can also be used to rotate the maps and show your creations from all angles as well as render your creation. 
+---
+
+
+## Install Packages
+
 
 ```r
-library(rayshader)
-library(tidyverse)
-library(here)
+# install.packages("rayshader")
+# install.packages("crosstalk")
+# install.packages("manipulateWidget")
 ```
 
 ---
+## Load Libraries
+
+```r
+library(rayshader)
+library(here) #for unbreakable file paths
+library(tidyverse)
+library(raster) #handles raster files
+```
+
+---
+
+## Where to get Topographic data
+.pull-left[
+[SRTM](https://dwtkns.com/srtm30m/)
+
+```r
+ sat&lt;- image_read(here("Data", "srtm.png"))
+sat
+```
+
+&lt;img src="presentationpractice_files/figure-html/unnamed-chunk-4-1.png" width="1719" /&gt;
+
+]
+
+.pull-right[
+[OpenTopo](https://portal.opentopography.org/datasets)
+
+```r
+topo&lt;-image_read(here("Data", "opentopo.png"))
+topo
+```
+
+&lt;img src="presentationpractice_files/figure-html/unnamed-chunk-5-1.png" width="1749" /&gt;
+
+]
+---
+
+## Load Data
+
+---
+## Examples:
+
+.pull-left[
 
 ```r
 data("quakes")
@@ -85,11 +135,16 @@ quakes_plot&lt;-ggplot(data = quakes_sample, aes(x = lat, y = long)) +
   labs(x = "Latitude", y = "Longitude") + 
   scale_colour_viridis_b(option = "B") + 
   scale_size_continuous(range = c(1,10))
+```
+]
+.pull-right[
 
+```r
 quakes_plot
 ```
 
-![](presentationpractice_files/figure-html/quakes_2d-1.png)&lt;!-- --&gt;
+![](presentationpractice_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+]
 ---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
