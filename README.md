@@ -1,8 +1,8 @@
 # Group 1
 
-## Diego Gomez  
-## Manroop Banipal  
-## Jessica Hunter  
+## [Diego Gomez](https://github.com/diegryllid)    
+## [Manroop Banipal](https://github.com/Biol551-CSUN/Banipal)  
+## [Jessica Hunter](https://github.com/tinyjessica)   
 
 
 # [Rayshader](https://www.rayshader.com/) package
