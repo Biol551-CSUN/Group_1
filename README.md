@@ -15,10 +15,11 @@ In this repository we will be walking through the package “Rayshader” this p
 [Data folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Data): Map Data, including geoTIF's of SF Valley and Santa Monica Mountains.
 
 
-[Scripts folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Scripts): Plots and Maps created through the script posted .
+[Scripts folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Scripts): Slides walking through the different aspects of Rayshader, Rmarkdown file for easy follow-up.
 
 
-[Output folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Output): Slides walking through the different aspects of Rayshader, Rmarkdown file for easy follow-up.
+[Output folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Output): Plots and Maps created through the presentation posted.
+
 
 
 ## Functions Reviewed:
