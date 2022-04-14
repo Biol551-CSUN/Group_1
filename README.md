@@ -1,20 +1,24 @@
-# Group_1
-rayshader package
+# Group 1
 
-Group 1: Rayshader
+## Diego Gomez  
+## Manroop Banipal  
+## Jessica Hunter  
+
+
+# Rayshader package
 
 Introduction: 
 
 In this repository we will be walking through the package “Rayshader” this package is made to created 3D maps and plots! Through this repository we will talk about how this package works specifically as well as how you can use various functions from the package to create your own 3D map or plot. 
 
 ## Folder Components: 
-Data: Map Data, including geoTIF's of SF Valley and Santa Monica Mountains.
+[Data folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Data): Map Data, including geoTIF's of SF Valley and Santa Monica Mountains.
 
 
-Output: Plots and Maps created through the script posted .
+[Scripts folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Scripts): Plots and Maps created through the script posted .
 
 
-Scripts: Slides walking through the different aspects of Rayshader, Rmarkdown file for easy follow-up.
+[Output folder](https://github.com/Biol551-CSUN/Group_1/tree/main/Output): Slides walking through the different aspects of Rayshader, Rmarkdown file for easy follow-up.
 
 
 ## Functions Reviewed:
