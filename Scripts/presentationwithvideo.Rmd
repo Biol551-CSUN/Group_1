@@ -418,23 +418,22 @@ This function creates a short movie with the camera orbiting  the 3D object.
 This function uses the "av" package or the "gifski" package to create the video.
 The default does an orbit but you can create a custom path that oscillates and orbits and zooms.
 ```{r, warning=FALSE, error=FALSE}
-sfv<- raster_to_matrix(here("Data", "sanfernandovalley.tif"))
+#sfv<- raster_to_matrix(here("Data", "sanfernandovalley.tif"))
 
-sfv %>%
-    sphere_shade(zscale = 10, texture = "imhof1") %>%
-        add_water(detect_water(sfv, min_area = 400),color = "lightblue") %>%
-    plot_3d(sfv, zscale = 50, fov = 70, theta = 270, phi = 30)
-render_movie(filename = "sfvmovie.gif",
-             frames = 20,
-             fps = 4, 
-             title_text = "San Fernando Valley")
+#sfv %>%
+    #sphere_shade(zscale = 10, texture = "imhof1") %>%
+        #add_water(detect_water(sfv, min_area = 400),color = "lightblue") %>%
+    #plot_3d(sfv, zscale = 50, fov = 70, theta = 270, phi = 30)
+#render_movie(filename = "sfvmovie.gif",
+             #frames = 20,
+             #fps = 4, 
+             #title_text = "San Fernando Valley")
 ```
 ---
 ## This is the 5 second video created in **render_movie()** video
 
-<video controls autoplay>
-   <source src="sfvmovie.mp4" type="video/mp4">
-</video>
+[click here](https://drive.google.com/file/d/1ya6A9cGMa-mx3V8lWsL9GiDGFxvIpvMt/view?usp=sharing)
+
 ---
 ## Shortcomings
 
